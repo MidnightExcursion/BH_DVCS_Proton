@@ -127,22 +127,57 @@ $$.
 
 #### (6.2): Interference Coefficients:
 
-##### (6.2.1): Interference Coefficient with Form Factors, $\Delta \mathcal{C}_{unp}^{I}(\mathcal{F})$
+##### (6.2.1): Interference Coefficient with Form Factors, $\mathcal{C}_{unp}^{I}(\mathcal{F})$
+
+From Equation (69) in https://arxiv.org/pdf/hep-ph/0112108.pdf:
+
+$$\mathcal{C}_{unp}^{I}(\mathcal{F}) = F_{1} \mathcal{H} + \frac{x_{B}}{2 - x_{B}} (F_{1} + F_{2}) \tilde{\mathcal{H}} - \frac{t}{4 m_{p}^{2}} F_{2} \mathcal{E}.$$
+
+##### (6.2.2): Interference Coefficient with Form Factors, $\Delta \mathcal{C}_{unp}^{I}(\mathcal{F})$
 
 From Equation (72) in https://arxiv.org/pdf/hep-ph/0112108.pdf,
 
-##### (6.2.2): Interference Coefficient with Form Factors, $\mathcal{C}_{T, unp}^{I}(\mathcal{F})$
+$$\Delta \mathcal{C}_{unp}^{I}(\mathcal{F}) = - \frac{x_{B}}{2 - x_{B}} (F_{1} + F_{2}) \left[ \frac{x_{B}}{2 - x_{B}}(\mathcal{H} + \mathcal{E}) + \tilde{\mathcal{H}} \right].$$
+
+##### (6.2.3): Interference Coefficient with Form Factors, $\mathcal{C}_{T, unp}^{I}(\mathcal{F})$
+
+Physically, this coefficient arises from "gluon transversity." From Equation (80) in https://arxiv.org/pdf/hep-ph/0112108.pdf,
+
+$$\mathcal{C}_{T, unp}^{I}(\mathcal{F}) = - F_{2} \mathcal{H}_{T} + 2 \left( F_{1} + \frac{t}{4 m_{p}^{2}} F_{2}\right) \tilde{\mathcal{H}_{T}} + F_{1} \mathcal{E}_{T}.$$
+
+##### (6.2.4): Interference Coefficient with Form Factors, $c_{0, unp}^{I}$
 
 From Equation (53) in https://arxiv.org/pdf/hep-ph/0112108.pdf,
 
-##### (6.2.3): Interference Coefficient with Form Factors, $c_{0, unp}^{I}$
+$$c_{0, unp}^{I} = -8 (2 - y) \mathcal{Re} \left[ \frac{(2 - y)^{2}}{1 - y} K^{2} \mathcal{C}_{unp}^{I} (\mathcal{F}) + \frac{t}{Q^{2}} (1 - y)(2 - x_{B})(\mathcal{C}_{unp}^{I}(\mathcal{F}) + \Delta \mathcal{C}_{unp}^{I}(\mathcal{F})) \right].$$
 
-##### (6.2.4): Interference Coefficient with Form Factors, $c_{1, unp}^{I}$
+##### (6.2.5): Interference Coefficient with Form Factors, $c_{1, unp}^{I}$
 
-##### (6.2.5): Interference Coefficient with Form Factors, $s_{1, unp}^{I}$
+From Equation (54) in https://arxiv.org/pdf/hep-ph/0112108.pdf,
 
-##### (6.2.6): Interference Coefficient with Form Factors, $c_{2, unp}^{I}$
+$$c_{1, unp}^{I} = - 8 K (2 - 2y + y^{2}) \mathcal{Re} \left[ \mathcal{C}_{unp}^{I}(\mathcal{F}) \right].$$
 
-##### (6.2.7): Interference Coefficient with Form Factors, $s_{2, unp}^{I}$
+##### (6.2.6): Interference Coefficient with Form Factors, $s_{1, unp}^{I}$
 
-##### (6.2.8): Interference Coefficient with Form Factors, $c_{3, unp}^{I}$
+From Equation (54) in https://arxiv.org/pdf/hep-ph/0112108.pdf,
+
+$$s_{1, unp}^{I} = 8 K (\lambda y (2 - y)) \mathcal{Im} \left[ \mathcal{C}_{unp}^{I}(\mathcal{F}) \right].$$
+
+##### (6.2.7): Interference Coefficient with Form Factors, $c_{2, unp}^{I}$
+
+From Equation (55) in https://arxiv.org/pdf/hep-ph/0112108.pdf,
+
+$$c_{2, unp}^{I} = - \frac{16 K^{2}}{2 - x_{B}} (2 - y) \mathcal{Re} \left[ \mathcal{C_{unp}^{I}}(\mathcal{F}) \right].$$
+
+##### (6.2.8): Interference Coefficient with Form Factors, $s_{2, unp}^{I}$
+
+From Equations (55) in https://arxiv.org/pdf/hep-ph/0112108.pdf, 
+
+$$s_{2, unp}^{I} = \frac{16 K^{2}}{2 - x_{B}} \lambda y \mathcal{Im} \left[ \mathcal{C_{unp}^{I}}(\mathcal{F^{\text{eff}}}) \right].$$
+
+##### (6.2.9): Interference Coefficient with Form Factors, $c_{3, unp}^{I}$
+
+Comes from Equation (56) in https://arxiv.org/pdf/hep-ph/0112108.pdf,
+
+$$c_{3, unp}^{I} = - \frac{8 Q^{2} K^{3}}{m_{p}^{2} (2 - x_{B})^{2}} \mathcal{Re} \left[ C_{T, unp}^{I}(\mathcal{F_{\text{T}}}) \right].$$
+
